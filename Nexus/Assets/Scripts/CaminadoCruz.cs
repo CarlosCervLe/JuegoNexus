@@ -19,8 +19,8 @@ public class CaminadoCruz : MonoBehaviour
         float horiz = Input.GetAxis("Horizontal");
         float verti = Input.GetAxis("Vertical");
 
-        miAnimador.SetFloat("MOV_LATERAL", horiz);
-        miAnimador.SetFloat("MOV_FRONTAL", verti);
+        miAnimador.SetFloat("MovLat", horiz);
+        miAnimador.SetFloat("MovFront", verti);
 
         Vector3 direc = (transform.forward * verti + transform.right * horiz).normalized;
         cuerpo.velocity = direc * velocidadMovi;
