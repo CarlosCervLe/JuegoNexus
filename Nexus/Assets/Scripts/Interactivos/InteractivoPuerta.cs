@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class InteractivoPuerta : ObjetoInteractuable2
 {
-    public float rotacionAbierto = 0;
+    public float rotacionAbierto = 90;
     public float rotacionCerrado = 0;
-    private bool abierto = false;
+    public bool abierto = false;
 
     public override void Activar() //esta es la accion real que se ejecuta cuando se interacta con la puerta
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CartelOpciones : ObjetoInteractuable2
 {
-    private bool abierto = false;
+    //private bool abierto = false;
 
     public override void Activar() //esta es la accion real que se ejecuta cuando se interacta con la puerta
     {
